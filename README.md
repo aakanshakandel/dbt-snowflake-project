@@ -5,8 +5,10 @@ This project involved building an end-to-end data engineering pipeline using AWS
 
 I started by transferring raw data stored in **Amazon S3 into Snowflake**, using Snowflake's data-loading capabilities to ingest the data into database tables. This allowed me to work with the data in a cloud-based data warehouse, where I could explore its structure and perform SQL queries.
 
-I then integrated **dbt (data build tool) with Snowflake** to develop the data transformation workflow. Using SQL-based dbt models, I transformed the raw data into cleaner, more structured datasets. This involved organising the transformations into models using the medallion structure, defining relationships between datasets and preparing the data for further analysis.
+I then integrated **dbt (data build tool) with Snowflake** to develop the data transformation workflow. Using SQL-based dbt models, I transformed the raw data into cleaner, more structured datasets. This involved organising the transformations into models using the medallion structure, defining relationships between datasets and preparing the data for further analysis. You can find the dbt work and models in snowflake_dbt_snowflake_project folder, whilst the rest of the files/folders contain SQL schemas in snowflake etc. 
 
 The project helped me understand how cloud storage, data warehousing and transformation tools work together in a modern data engineering environment. I also prepared and delivered a presentation to my team at FDM Group, explaining the architecture, implementation process and technologies used, following my manager's encouragement to share my independent learning.
 
 **Technologies Used:** AWS S3, Snowflake, dbt, SQL
+
+I will soon be creating a demonstration video to upload here on github.
