@@ -1,0 +1,6 @@
+[0m11:11:53.077865 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 11:11:53.758504 | cee9b182-fcb6-4545-ab11-288984e7be37 ==============================
+[0m11:11:53.758504 [info ] [MainThread]: Running with dbt=1.11.2
+[0m11:11:53.761084 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\aakaa\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
